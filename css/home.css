@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #26333D;
+
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: #26333D;
+}
+
+.layout-grid {
+    width: 100%;
+    max-width: 992px;
+    /* border: 3px solid white; */
+    margin: 0 auto;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 100%;
+    /* border: 3px solid white; */
+
+}
+
+header nav a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+    /* background-color: #E9F0EF; */
+}
+
+.icones {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    /* border: 3px solid rgb(0, 0, 0); */
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgb(142, 142, 142);
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+
+}
+
+.porque-usar {
+    width: 100%;
+    height: 500px;
+    background-color: #E9F0EF;
+}
+
+.porque-usar h1 {
+    padding-top: 20px;
+}
+
+.bibliotec-flex {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bibliotec-flex .titulo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.bibliotec-flex .titulo hr {
+    width: 30%;
+    border: 2px solid #2FD6CB;
+}
+
+.bibliotec-flex h1 {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-bottom: 20px;
+
+}
+
+.caixa-icone {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #2FD6CB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    background-color: white;
+}
+
+.caixa-coraçao {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #2FD6CB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    background-color: white;
+}
+
+.caixa-check {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #2FD6CB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    background-color: white;
+}
+
+.icones h2 {
+    text-align: center;
+    font-size: large;
+}
+
+.livros {
+    /* background-color: black; */
+    height: 300px;
+    width: 235px;
+    text-align: center;
+}
+
+.livros h2 {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.livros h3 {
+    margin-top: 14px;
+    font-size: medium;
+}
+
+.top-4livros {
+    padding: 30px;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+.bibliotec-flex .titulo-livro {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.bibliotec-flex .titulo-livro hr {
+    width: 30%;
+    border: 2px solid #2FD6CB;
+    margin-bottom: 10px;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    /* border: 2px solid orange; */
+    width: 100%;
+}
+
+.logo-footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 160px;
+    /* border: 2px solid red; */
+}
+
+.nav-footer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+     width: 500px;
+}
+
+.left-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 500px;
+    border: #2FD6CB;
+    height: 80%;
+}
+.right-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 200px;
+    height: 80%;
+}
+
+.right-info a{
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    width: 200px;
+}
+
+
+.left-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-footer h4{
+    color: #2FD6CB;
+    font-size: 16px;
+} 
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid pink */
+}
+
